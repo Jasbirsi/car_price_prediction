@@ -1,7 +1,6 @@
 from logging import debug
 # from flask import Flask
 from flask import Flask, render_template, request,redirect,url_for
-from werkzeug.utils import redirect
 import jsonify
 import requests
 import pickle
